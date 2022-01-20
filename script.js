@@ -1,4 +1,3 @@
-// a simple extension to block porn keyworks 
 // it detect and changes your a site theme automatically 
 
 let printOut = document.getElementsByTagName('body')[0];
