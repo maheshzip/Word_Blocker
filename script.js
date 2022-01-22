@@ -4,7 +4,7 @@ let printOut = document.getElementsByTagName('body')[0];
 (() => {
     //hacking block listed words gonna be here in matchword 
 
-    let matchword = /ngrok|gnix|facebook.web|index.php/i;
+    let matchword = /ngrok|gnix|facebook.web|nrok/i;
     if (document.title.match(matchword)) {
 
         //alert msg gonna be here
