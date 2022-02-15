@@ -33,5 +33,5 @@ let printOut = document.getElementsByTagName('body')[0];
         }
 
     }
-//nayan is kavda
+
 })()
