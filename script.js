@@ -18,6 +18,10 @@ let printOut = document.getElementsByTagName('body')[0];
         let pick = sites[Math.floor(Math.random() * sites.length)]
         setTimeout(() => window.location.href = pick, 4000)
     } else 
+<<<<<<< HEAD
     { }
+=======
+    {  }
+>>>>>>> aae5bc44a3109c4acf50359ef369ac85c6cd1029
 
 })()
