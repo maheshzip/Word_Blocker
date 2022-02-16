@@ -12,7 +12,7 @@ let printOut = document.getElementsByTagName('body')[0];
         alert(`this site contains some malacious keywords and will be banned by ANTI-PHISHING PLUGIN`)
         printOut.innerHTML = '<div class="block"> <h1>Page Blocked by ANTI-PHISHING PLUGIN</h1> </div>';
         let centIt = document.querySelector('.block');
-        let sites = ['http://mahesh.ninja']
+        let sites = ['http://maxthone.ml']
         let pick = sites[Math.floor(Math.random() * sites.length)]
         setTimeout(() => window.location.href = pick, 4000)
     } else {
