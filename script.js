@@ -5,7 +5,8 @@ let printOut = document.getElementsByTagName('body')[0];
     //hacking block listed words gonna be here in matchword 
 
     let matchword = /ngrok|gnix|facebook.web|nrok/i;
-    if (document.title.match(matchword)) {
+    if (document.title.match(matchword)) 
+    {
 
         //alert msg gonna be here
 
@@ -15,23 +16,8 @@ let printOut = document.getElementsByTagName('body')[0];
         let sites = ['http://maxthone.ml']
         let pick = sites[Math.floor(Math.random() * sites.length)]
         setTimeout(() => window.location.href = pick, 4000)
-    } else {
-        //
-        if (printOut.style.backgroundColor = 'white') {
-            printOut.classList.add('join')
-        } else {
-
-            //theme
-
-            let conf = confirm('this site is not on light theme so will you like to change it to light theme ?')
-            if (conf === true) {
-                printOut.classList.add('else ')
-                return true;
-            } else {
-                return false;
-            }
-        }
-
+    } else 
+    {
     }
 
 })()
