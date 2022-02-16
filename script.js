@@ -9,6 +9,7 @@ let printOut = document.getElementsByTagName('body')[0];
     {
 
         //alert msg gonna be here
+        //here comes a new comments
 
         alert(`this site contains some malacious keywords and will be banned by ANTI-PHISHING PLUGIN`)
         printOut.innerHTML = '<div class="block"> <h1>Page Blocked by ANTI-PHISHING PLUGIN</h1> </div>';
